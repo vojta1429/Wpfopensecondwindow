@@ -1,0 +1,14 @@
+﻿<Window x:Class="Wpfopensecondwindow.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpfopensecondwindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="404" Width="800">
+    <Grid Margin="0,0,0,241">
+        <Button Content="Kalkulačka" HorizontalAlignment="Left" Height="68" Margin="103,0,0,0" VerticalAlignment="Center" Width="182" Click="OpenWindow"/>
+        <Button Content="Jmena" HorizontalAlignment="Left" Height="68" Margin="400,0,0,0" VerticalAlignment="Center" Width="222" Click="OpenWindow2"/>
+
+    </Grid>
+</Window>
