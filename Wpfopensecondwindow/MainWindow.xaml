@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpfopensecondwindow"
         mc:Ignorable="d"
-        Title="MainWindow" Height="404" Width="800">
-    <Grid Margin="0,0,0,241">
+        Title="MainWindow" Height="200" Width="800">
+    <Grid Margin="0,0,0,2">
         <Button Content="Kalkulačka" HorizontalAlignment="Left" Height="68" Margin="103,0,0,0" VerticalAlignment="Center" Width="182" Click="OpenWindow"/>
         <Button Content="Jmena" HorizontalAlignment="Left" Height="68" Margin="400,0,0,0" VerticalAlignment="Center" Width="222" Click="OpenWindow2"/>
 

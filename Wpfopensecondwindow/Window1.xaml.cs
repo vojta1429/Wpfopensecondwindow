@@ -105,6 +105,7 @@ namespace Wpfopensecondwindow
                 tb.Text = tb.Text.Substring(0, tb.Text.Length - 1);
             }
         }
+        
     }
 }   
 

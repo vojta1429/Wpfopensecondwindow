@@ -1,5 +1,5 @@
 ﻿<!--We can refer this window using Wpfopensecondwindow.Window2 or SecondWindow (without namespace) -->
-    <Window x:Class="Wpfopensecondwindow.Window2"
+<Window x:Class="Wpfopensecondwindow.Window2"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"

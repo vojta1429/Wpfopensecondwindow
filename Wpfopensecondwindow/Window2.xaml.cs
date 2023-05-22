@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using System.Windows.Input;
 
 namespace Wpfopensecondwindow
 {
@@ -8,7 +9,6 @@ namespace Wpfopensecondwindow
         public Window2()
         {
             InitializeComponent();
-            DataContext = new Window2();
         }
 
         private void ButtonAddName_Click(object sender, RoutedEventArgs e)
@@ -20,6 +20,7 @@ namespace Wpfopensecondwindow
             lstNames.Items.Add(txtName.Text);
             txtName.Clear();
         }
+        
 
     }
 }
