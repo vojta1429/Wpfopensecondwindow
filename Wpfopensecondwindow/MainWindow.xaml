@@ -1,14 +1,27 @@
-﻿<Window x:Class="Wpfopensecondwindow.MainWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Wpfopensecondwindow"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="200" Width="800">
+﻿<Window
+    x:Class="Wpfopensecondwindow.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Wpfopensecondwindow"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="800"
+    Height="800"
+    mc:Ignorable="d">
     <Grid Margin="0,0,0,2">
-        <Button Content="Kalkulačka" HorizontalAlignment="Left" Height="68" Margin="103,0,0,0" VerticalAlignment="Center" Width="182" Click="OpenWindow"/>
-        <Button Content="Jmena" HorizontalAlignment="Left" Height="68" Margin="400,0,0,0" VerticalAlignment="Center" Width="222" Click="OpenWindow2"/>
+        <StackPanel>
+            <TabControl>
+                <TabItem Header="Calculator">
+                    <local:Window1 />
+                </TabItem>
+                <TabItem Header="Names">
+                    <local:Window2 />
+                </TabItem>
+            </TabControl>
+            <TextBlock Text="{Binding MyAwesomeText}" />
+            <Button Command="{Binding Calculate}" />
+        </StackPanel>
 
     </Grid>
 </Window>

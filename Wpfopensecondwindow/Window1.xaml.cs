@@ -17,7 +17,7 @@ namespace Wpfopensecondwindow
     /// <summary>
     /// Interakční logika pro Window1.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class Window1 : UserControl
     {
         public Window1()
         {

@@ -1,10 +1,11 @@
 ﻿using System.Windows;
+using System.Windows.Controls;
 using System.Windows.Input;
 
 namespace Wpfopensecondwindow
 {
     
-    public partial class Window2 : Window
+    public partial class Window2 : UserControl
     {
         public Window2()
         {

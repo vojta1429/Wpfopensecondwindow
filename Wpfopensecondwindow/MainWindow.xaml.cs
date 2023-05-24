@@ -23,23 +23,7 @@ namespace Wpfopensecondwindow
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void OpenWindow(object sender, RoutedEventArgs e)
-
-
-        {
-            Window1 objWindow1 = new Window1();
-            this.Visibility = Visibility.Hidden;
-            objWindow1.Show();
-        }
-
-        private void OpenWindow2(object sender, RoutedEventArgs e)
-        {
-            Window2 objWindow2 = new Window2();
-            this.Visibility = Visibility.Hidden;
-            objWindow2.Show();
-
+            DataContext = new MainWindowViewModel();
         }
     }
 }
